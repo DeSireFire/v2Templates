@@ -1,0 +1,24 @@
+{
+    "protocol": "vmess",
+    "port": 53600,
+    "settings": {
+        "clients": [
+            {
+                "id": "",
+                "level": 1,
+                "alterId": 16,
+                "email": "test@qq.com"
+            }
+        ]
+    },
+    "streamSettings": {
+        "network": "ws"
+    },
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [
+            "http",
+            "tls"
+        ]
+    }
+}
